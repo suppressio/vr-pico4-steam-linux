@@ -1,15 +1,16 @@
 # vr-pico4-steam-linux
-####Guide to use Pico 4 Vr headset on Linux, streaming SteamVR.
+##### _Guide to use Pico 4 Vr headset on Linux, streaming SteamVR._
+
 
 
 
 ## Software requirements
 
-#### To install on your Linux PC:
+##### To install on your Linux PC:
 - ALVR Server
 - AudioRelay Server
 
-#### To install on your Pico 4
+##### To install on your Pico 4
 - [ALXR Client](https://github.com/korejan/ALVR/wiki/ALXR-Client)
 - [AudioRelay Client app](https://audiorelay.net/downloads)
 
