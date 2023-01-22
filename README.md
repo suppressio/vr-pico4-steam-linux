@@ -1,9 +1,6 @@
-# Pico 4, SteamVR on Linux
-##### _Guide to use Pico 4 headset on Linux, streaming SteamVR._
-
+# Pico 4, Stream on Linux
+##### _Guide to use Pico 4 headset on Linux, streaming vr software and games_
 This guide was created to help to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux.
-
-
 
 ## Software requirements
 ##### To install on your PC (Linux):
@@ -27,3 +24,5 @@ This guide was created to help to remember all the steps to configure the softwa
 
 ## Addendum, optional features
 - Streaming over USB
+- Remote control your pc with SteamLink
+- Startup script
