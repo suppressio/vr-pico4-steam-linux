@@ -1,6 +1,6 @@
 # Pico 4, stream VR software on Linux [ WORK IN PROGRESS ]
 #### _Guide to use Pico 4 headset on Linux, streaming VR software and games_
-This guide was created to help me to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux (I use Debian).
+I wrote this guide to help me to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux (I use Debian).
 
 The following are the software requirements and steps needed to install and configure the entire environment.
 Further details on these topics, if needed, will be covered in the appropriate wiki pages [TODO].
@@ -27,28 +27,33 @@ Extract the archive with the commands:
 - [ ] Configure ALVR Server: to configure ALVR, open your web browser and reach the page `localhost:8082` (this is handy because you can reach this page even from your VR headset, but in this case use the address `{your pc ip address}:8082`);
 [TODO]
 - [ ] Install AudioRelay Server: download latest release, then execute the commands:
-> `sudo apt update`
-> `sudo apt upgrade -Y`
-> `sudo dpkg --install audiorelay*.deb`
- [TODO install libflac8]
+```
+sudo apt update
+sudo apt upgrade -Y
+sudo dpkg --install audiorelay*.deb
+```
+[TODO install libflac8]
  
 - [ ] Configure AudioRelay Server: this software should be ready for use as is. But if needed, here is AudioRelay's official page for [advanced configs](https://docs.audiorelay.net/instructions/linux/stream-audio-from-your-linux-pc-to-your-phone);
 ##### From your Pico4:
 Since the Pico 4 is an Android device, it is possible to install almost any Android application on the Pico 4. So:
-- [ ] Install ALXR app: open the web browser on your Pico, then go to the page `[https://github.com/korejan/ALVR/wiki/ALXR-Client](https://github.com/korejan/ALXR-nightly/releases)`.
+- [ ] Install ALXR app: open the web browser on your Pico, then go to the page `https://github.com/korejan/ALXR-nightly/releases`.
 Download and install `alxr-client-pico-v4-debug.apk`;
-- [ ] Install AudioRelay Client: the easiest way to install the AudioRelay client is to first install "Aurora Store" (alternative to Google Play Store), then search the AudioRelay store and install it through that. But to get Aurora Store you need to install F-Droid. So:
-> 1. https://f-droid.org/en/packages/com.aurora.store/
-> 2. Search for Aurora Store and install it;
-> 3. From Aurora Store, search for AudioRelay and install it;
+- [ ] Install AudioRelay Client: the easiest way to install the AudioRelay client is to first install "Aurora Store" (alternative to Google Play Store), then search the AudioRelay store and install it through that.
+Here the link to download aurora store. Take Aurora Store apk from F-Droid [https://f-droid.org/en/packages/com.aurora.store/](repository) (download the latest version from the link "Download APK").
+Now, from Aurora Store, search for AudioRelay and install it.
 
 ## Run steps
 To execute the entire environment:
 ##### On your pc:
 - Launch ALVC Server:
-> `~/alvr-server-portable/bin/alvr_launcher &`
+```
+~/alvr-server-portable/bin/alvr_launcher &
+```
 - Launch AudioRelay Server:
-> `/opt/audiorelay/bin/AudioRelay &`
+```
+/opt/audiorelay/bin/AudioRelay &
+```
 ##### On your Pico4:
 - Open AudioRelay App, connect to your pc ip in the app list;
 - Open ALXR client, for a few moments, you will see a "teal" background and two rgb cubes instead of controllers, but soon the SteamVR Home will appear.
