@@ -1,4 +1,4 @@
-# Pico 4, stream VR software on Linux
+# Pico 4, stream VR software on Linux [ WORK IN PROGRESS ]
 #### _Guide to use Pico 4 headset on Linux, streaming vr software and games_
 This guide was created to help me to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux (I use Debian).
 
@@ -27,14 +27,16 @@ Extract the archive with the commands:
 - [ ] Configure ALVR Server: to configure ALVR, open your web browser and reach the page `localhost:8082` (this is handy because you can reach this page even from your VR headset, but in this case use the address `{your pc ip address}:8082`);
 [TODO]
 - [ ] Install AudioRelay Server: download latest release, then execute the commands:
- `sudo apt update`
- `sudo apt upgrade -Y`
- `sudo dpkg --install audiorelay*.deb`
+> `sudo apt update`
+> `sudo apt upgrade -Y`
+> `sudo dpkg --install audiorelay*.deb`
  [TODO install libflac8]
+ 
 - [ ] Configure AudioRelay Server: this software should be ready for use as is. But if needed, here is AudioRelay's official page for [advanced configs](https://docs.audiorelay.net/instructions/linux/stream-audio-from-your-linux-pc-to-your-phone);
 ##### From your Pico4:
 Since the Pico 4 is an Android device, it is possible to install almost any Android application on the Pico 4, so let's take advantage of this opportunity to:
-- [ ] Install ALXR app: open the web browser on your Pico, then go to the page `[https://github.com/korejan/ALVR/wiki/ALXR-Client](https://github.com/korejan/ALXR-nightly/releases)` ;
+- [ ] Install ALXR app: open the web browser on your Pico, then go to the page `[https://github.com/korejan/ALVR/wiki/ALXR-Client](https://github.com/korejan/ALXR-nightly/releases)`.
+Download and install `alxr-client-pico-v4-debug.apk`;
 - [ ] Install AudioRelay Client: ...;
 
 ## Run steps
