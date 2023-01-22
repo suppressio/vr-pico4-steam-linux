@@ -1,6 +1,6 @@
 # Pico 4, stream VR software on Linux
 #### _Guide to use Pico 4 headset on Linux, streaming vr software and games_
-This guide was created to help me to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux.
+This guide was created to help me to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux (I use Debian).
 
 The following are the software requirements and steps needed to install and configure the entire environment.
 Further details on these topics, if needed, will be covered in the appropriate wiki pages.
@@ -8,7 +8,7 @@ Further details on these topics, if needed, will be covered in the appropriate w
 ## Software requirements
 ##### To install on your PC (Linux):
 - [Steam](https://store.steampowered.com/about/download): is needed due to SteamVR;
-- [SteamVR](https://www.steamvr.com/en/): will be used as the main VR environment, enabling the launch and management of VR applications and games on your PC. It is required for the ALVR server;
+- [SteamVR](https://www.steamvr.com/en/): is a free software available on the Steam platform. It will be used as the main VR environment on the PC, making it possible to launch and manage VR applications and games. It's required for the ALVR server;
 - [ALVR Server](https://github.com/alvr-org/ALVR) is open source software, which is required for the ALXR client. At the time of writing, version [18.2.3](https://github.com/alvr-org/ALVR/releases/tag/v18.2.3) is required. Other versions are not compatible with the latest ALXR client app;
 - [AudioRelay Server](https://audiorelay.net/downloads) is required for audio streaming on the device. This is because ALVR version 18.2.3 does not support audio streaming on Linux. Hopefully, in the next version of ALXL/ALVR it will no longer be necessary;
 ##### To install on your Pico 4:
@@ -17,8 +17,8 @@ Further details on these topics, if needed, will be covered in the appropriate w
 
 ## Steps
 ##### On your pc:
-- [ ] Install Steam: ...;
-- [ ] Install SteamVR: ...;
+- [ ] Install Steam: here the official Debian Linux page to [install Steam](https://wiki.debian.org/Steam#Installing_Steam);
+- [ ] Install SteamVR: simply open Steam, search for SteamVR in the store and install it;
 - [ ] Install ALVR Server: ...;
 - [ ] Configure ALVR Server: ...;
 - [ ] Install AudioRelay Server: ...;
@@ -30,3 +30,5 @@ Further details on these topics, if needed, will be covered in the appropriate w
 - Streaming over USB: ...;
 - Remote control your pc with SteamLink: ...;
 - Startup script: ...;
+
+## Troubleshooing [TODO]
