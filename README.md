@@ -1,5 +1,5 @@
-# Pico 4, Stream on Linux
-##### _Guide to use Pico 4 headset on Linux, streaming vr software and games_
+# Pico 4, stream VR software on Linux
+#### _Guide to use Pico 4 headset on Linux, streaming vr software and games_
 This guide was created to help to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux.
 
 ## Software requirements
