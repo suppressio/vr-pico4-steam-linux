@@ -17,16 +17,16 @@ Further details on these topics, if needed, will be covered in the appropriate w
 
 ## Steps
 ##### On your pc:
-[ ] Install Steam
-[ ] Install SteamVR
-[ ] Install ALVR Server
-[ ] Configure ALVR Server
-[ ] Install AudioRelay Server
+- [ ] Install Steam: ...;
+- [ ] Install SteamVR: ...;
+- [ ] Install ALVR Server: ...;
+- [ ] Configure ALVR Server: ...;
+- [ ] Install AudioRelay Server: ...;
 ##### On your Pico4:
-[ ] Install ALXR app
-[ ] Install AudioRelay Client
+- [ ] Install ALXR app: ...;
+- [ ] Install AudioRelay Client: ...;
 
 ## Addendum, optional features
-[ ] Streaming over USB
-[ ] Remote control your pc with SteamLink
-[ ] Startup script
+- Streaming over USB: ...;
+- Remote control your pc with SteamLink: ...;
+- Startup script: ...;
