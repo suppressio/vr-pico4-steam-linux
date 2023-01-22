@@ -9,8 +9,7 @@ Further details on these topics, if needed, will be covered in the appropriate w
 ##### To install on your PC (Linux):
 - [Steam](https://store.steampowered.com/about/download): is needed due to SteamVR;
 - [SteamVR](https://www.steamvr.com/en/): will be used as the main VR environment, enabling the launch and management of VR applications and games on your PC. It is required for the ALVR server;
-- [ALVR Server](https://github.com/alvr-org/ALVR) is an open source software, is needed by the ALXR client. At the moment of writing, you need version [18.2.3](https://github.com/alvr-org/ALVR/releases/tag/v18.2.3). Other versions ar not compatible with the last ALXR client app;
-- is open source software, which is required for the ALXR client. At the time of writing, version [18.2.3](https://github.com/alvr-org/ALVR/releases/tag/v18.2.3) is required. Other versions are not compatible with the latest ALXR client application;
+- [ALVR Server](https://github.com/alvr-org/ALVR) is open source software, which is required for the ALXR client. At the time of writing, version [18.2.3](https://github.com/alvr-org/ALVR/releases/tag/v18.2.3) is required. Other versions are not compatible with the latest ALXR client app;
 - [AudioRelay Server](https://audiorelay.net/downloads) is required for audio streaming on the device. This is because ALVR version 18.2.3 does not support audio streaming on Linux. Hopefully, in the next version of ALXL/ALVR it will no longer be necessary;
 ##### To install on your Pico 4:
 - [ALXR Client](https://github.com/korejan/ALVR/wiki/ALXR-Client) is an open source application, the ALVR software client. You must use the ALXR client (and not the ALVR client) because Pico 4 "has" OpenXR runtimes.
