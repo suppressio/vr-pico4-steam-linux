@@ -36,11 +36,11 @@ sudo dpkg --install audiorelay*.deb
  
 - [ ] Configure AudioRelay Server: this software should be ready for use as is. But if needed, here is AudioRelay's official page for [advanced configs](https://docs.audiorelay.net/instructions/linux/stream-audio-from-your-linux-pc-to-your-phone);
 ##### From your Pico4:
-Since the Pico 4 is an Android device, it is possible to install almost any Android application on the Pico 4. So:
+Since the Pico 4 is an Android device, it is possible to install almost any Android app on the Pico 4. So:
 - [ ] Install ALXR app: open the web browser on your Pico, then go to the page `https://github.com/korejan/ALXR-nightly/releases`.
-Download and install `alxr-client-pico-v4-debug.apk`;
+Download and install `alxr-client-pico-v4.apk`;
 - [ ] Install AudioRelay Client: the easiest way to install the AudioRelay client is to first install "Aurora Store" (alternative to Google Play Store), then search the AudioRelay store and install it through that.
-Here the link to download aurora store. Take Aurora Store apk from F-Droid [https://f-droid.org/en/packages/com.aurora.store/](repository) (download the latest version from the link "Download APK").
+Here a safe link to download Aurora Store from [F-Droid repository](https://f-droid.org/repo/com.aurora.store_41.apk).
 Now, from Aurora Store, search for AudioRelay and install it.
 
 ## Run steps
