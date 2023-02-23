@@ -1,9 +1,9 @@
 # Pico 4, stream VR software on Linux
 ## (This guide is a WORK IN PROGRESS)
 #### _Guide to use Pico 4 headset on Linux, streaming VR software and games_
-I wrote this guide to help me to remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux (I use Debian).
+I wrote this guide for myself to help me remember all the steps to configure the software elements needed to use the Pico 4 headset with Linux (I use Debian).
 
-The following are the software requirements and steps needed to install and configure the entire environment.
+Below are the software requirements and steps needed to install and configure the entire environment.
 Further details on these topics, if needed, will be covered in the appropriate wiki pages [TODO].
 
 ## Software requirements
@@ -25,12 +25,12 @@ Extract the archive with the commands:
  `mkdir ~/alvr-server-portable`
  `tar -xvzf alvr_server_linux_portable.tar.gz -C ~/alvr-server-portable/`
  
-- [ ] Configure ALVR Server: to configure ALVR, open your web browser and reach the page `localhost:8082` (this is handy because you can reach this page even from your VR headset, but in this case use the address `{your pc ip address}:8082`);
+- [ ] Configure ALVR Server: open the web browser and type in the url `localhost:8082` (this is handy because you can reach this page even from your VR headset, but in this case use the address `{your pc ip address}:8082`);
 [TODO]
 - [ ] Install AudioRelay Server: download latest release, then execute the commands:
 ```
-sudo apt update
-sudo apt upgrade -Y
+sudo apt update /
+sudo apt upgrade -Y /
 sudo dpkg --install audiorelay*.deb
 ```
 [TODO install libflac8]
