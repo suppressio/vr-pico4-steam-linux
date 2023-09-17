@@ -41,7 +41,7 @@ Since the Pico 4 is an Android device, it is possible to install almost any Andr
 - [ ] Install ALXR app: open the web browser on your Pico, then go to the page `https://github.com/korejan/ALXR-nightly/releases`.
 Download and install `alxr-client-pico-v4.apk`;
 - [ ] Install AudioRelay Client: the easiest way to install the AudioRelay client is to first install "Aurora Store" (alternative to Google Play Store), then search the AudioRelay store and install it through that.
-Here a safe link to download Aurora Store from [F-Droid repository](https://f-droid.org/repo/com.aurora.store_41.apk).
+Here a safe link to download Aurora Store from [F-Droid repository](https://f-droid.org/en/packages/com.aurora.store/).
 Now, from Aurora Store, search for AudioRelay and install it.
 
 ## Run steps
