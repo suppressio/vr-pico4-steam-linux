@@ -36,14 +36,14 @@ Valve now provides **Steam Link VR** for Pico 4 (and other Pico headsets). This 
    4. Choose **`public_beta - Public Beta`** from the dropdown  
    5. Close and restart SteamVR  
 
-   ![SteamVR Beta Settings](main/resources/images/STEAMLINK-steamvr-beta-settings.png) 
+   ![SteamVR Beta Settings](/resources/images/STEAMLINK-steamvr-beta-settings.png)
 
-4. **Connect your headset**:
+5. **Connect your headset**:
    - Launch **Steam Link VR** on Pico;
    - Scan for your PC on the same network;
    - Pair and start streaming;
 
-5. **Adjust settings if needed**:
+6. **Adjust settings if needed**:
    - Use the VR interface to select graphics/performance options;
    - If you encounter lag or stutter, try 5GHz Wi-Fi or wired connection for PC;
 
