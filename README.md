@@ -1,3 +1,6 @@
+> ⚠️ **2026 Update:** A simpler way to play SteamVR on Pico 4 is now available using **Steam Link VR**.  
+> See the [README_steamlink.md](./README_steamlink.md) for the updated procedure.
+
 # Pico 4, stream VR software on Linux
 #### _Guide to use Pico 4 headset on Linux, streaming VR software and games_
 ***Note:*** _This guide specifically covers using the ALVR software with the Pico 4 headset to stream SteamVR content from a Debian-based Linux system._
