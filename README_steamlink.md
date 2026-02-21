@@ -57,6 +57,14 @@ Valve now provides **Steam Link VR** for Pico 4 (and other Pico headsets). This 
 
 ---
 
+## References
+
+- [Steam Link on Pico Store](https://store-global.picoxr.com/en/detail/1/7494362493653958711) 
+- [ALVR guide](./README.md)  
+- [GamingOnLinux report on Steam Link VR Linux support](https://www.gamingonlinux.com/2025/09/steam-link-vr-now-available-for-pico-and-htc-headsets-plus-valve-confirm-experimental-linux-support)
+
+---
+
 ## Final Note
 
 From personal experience using Steam Link VR with Pico 4:
