@@ -1,9 +1,11 @@
+🌐 **English** | [Italiano](STEAM-LINK.it.md)
+
 # Pico 4 SteamVR via Steam Link VR (2026)
 
 **Quick Note (2026 Update)**  
 Valve now provides **Steam Link VR** for Pico 4 (and other Pico headsets). This allows you to **stream SteamVR games from your PC directly to your headset over Wi-Fi**, with minimal setup, bypassing manual ALVR installation.
 
-> ⚠️ **Linux Support:** Currently experimental. Some users may encounter driver or stability issues. If you experience problems, refer back to the [original guide](./README.md) for manual streaming setup.
+> ⚠️ **Linux Support:** Currently experimental. Some users may encounter driver or stability issues. If you experience problems, refer back to the [original guide](ALVR.md) for manual streaming setup.
 
 ---
 
@@ -36,14 +38,14 @@ Valve now provides **Steam Link VR** for Pico 4 (and other Pico headsets). This 
    4. Choose **`public_beta - Public Beta`** from the dropdown  
    5. Close and restart SteamVR  
 
-   ![SteamVR Beta Settings](/resources/images/STEAMLINK-steamvr-beta-settings.png)
+   ![SteamVR Beta Settings](../resources/images/STEAMLINK-steamvr-beta-settings.png)
 
-5. **Connect your headset**:
+4. **Connect your headset**:
    - Launch **Steam Link VR** on Pico;
    - Scan for your PC on the same network;
    - Pair and start streaming;
 
-6. **Adjust settings if needed**:
+5. **Adjust settings if needed**:
    - Use the VR interface to select graphics/performance options;
    - If you encounter lag or stutter, try 5GHz Wi-Fi or wired connection for PC;
 
@@ -53,14 +55,14 @@ Valve now provides **Steam Link VR** for Pico 4 (and other Pico headsets). This 
 
 - **No PC detected:** Ensure both PC and headset are on the same network, and Steam is running;
 - **Performance issues:** Lower VR graphics settings or try a wired connection;
-- **Linux specific issues:** Steam Link VR on Linux is still experimental. Some features may not work; consider fallback to manual ALVR setup from the [original guide](./README.md)
+- **Linux specific issues:** Steam Link VR on Linux is still experimental. Some features may not work; consider fallback to manual ALVR setup from the [original guide](ALVR.md)
 
 ---
 
 ## References
 
 - [Steam Link on Pico Store](https://store-global.picoxr.com/en/detail/1/7494362493653958711) 
-- [ALVR guide](./README.md)  
+- [ALVR guide](ALVR.md)  
 - [GamingOnLinux report on Steam Link VR Linux support](https://www.gamingonlinux.com/2025/09/steam-link-vr-now-available-for-pico-and-htc-headsets-plus-valve-confirm-experimental-linux-support)
 
 ---
