@@ -1,5 +1,7 @@
+🌐 **English** | [Italiano](README.it.md)
+
 > ⚠️ **2026 Update:** A simpler way to play SteamVR on Pico 4 is now available using **Steam Link VR**.  
-> See the [README_steamlink.md](./README_steamlink.md) for the updated procedure.
+> See [docs/STEAM-LINK.md](docs/STEAM-LINK.md) for the updated procedure.
 
 # Pico 4, stream VR software on Linux
 #### _Guide to use Pico 4 headset on Linux, streaming VR software and games_
@@ -127,7 +129,7 @@ Now... You are finally inside the SteamVR Home Environment! 🎉
 
 
 ## Addendum, optional features
-- [Streaming over USB](ALVR-USB-Streaming.md);
+- [Streaming over USB](docs/ALVR-USB.md);
 
 
 ## Troubleshooting 
